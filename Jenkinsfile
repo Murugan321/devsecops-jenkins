@@ -14,8 +14,8 @@ pipeline {
             steps {		
                 echo 'Testing...'
                 snykSecurity(
-                    snykInstallation: 'synktool',
-                    snykTokenId: 'synk_token',
+                    snykInstallation: 'snyktool',
+                    snykTokenId: 'snyk_token',
                     failOnError: 'false',
                     failOnIssues: 'false'
                 )
